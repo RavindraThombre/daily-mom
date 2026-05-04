@@ -60,7 +60,7 @@ const SignupPage = () => {
 
       toast.success("Account created successfully!");
 
-      router.push("/mom/auth/login");
+      router.push("/auth/login");
     } catch (error) {
       console.error(error);
 
